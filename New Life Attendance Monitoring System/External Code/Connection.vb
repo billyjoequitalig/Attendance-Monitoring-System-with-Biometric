@@ -8,7 +8,7 @@ Module Connections
     Dim Username As String
     Public host As String = "localhost"
     Public user As String = "root"
-    Public pass As String = ""
+    Public pass As String = "001995234"
     Public db As String = "attendancedb"
     Public con As New MySqlConnection("Server=" + host + ";User Id=" + user + ";Password=" + pass + ";database=" + db + ";")
     Public cmd As New MySqlCommand
@@ -357,10 +357,11 @@ Module Connections
 
     Sub CountAttendToday()
         Dim datenow As String = DateTime.Now.ToString("MMMM dd, yyyy")
-        Query = "SELECT COUNT(*) AS total FROM(SELECT *  FROM attendance WHERE Date = '" & datenow & "' GROUP BY User_id) AS result"
+        Query = "SELECT COUNT(*) AS total FROM (SELECT User_id FROM attendance WHERE Date = '" & datenow & "' GROUP BY User_id) AS result"
         cmd = New MySqlCommand(Query, con)
-        reader = cmd.ExecuteReader
+        reader = cmd.ExecuteReader()
     End Sub
+
 
     Sub SelectMainID()
         Query = "SELECT * FROM Users WHERE User_id = '" & getUserID & "'"
@@ -575,10 +576,11 @@ Module Connections
             con.Open()
             CountAttendToday()
             If reader.Read Then
-                frmMain.lblAttendCount.Text = reader.GetValue(0).ToString
+                frmMain.lblAttendCount.Text = reader.GetInt32(0).ToString() ' Use GetInt32 instead of GetString
                 con.Close()
             End If
             con.Close()
         End If
     End Sub
+
 End Module

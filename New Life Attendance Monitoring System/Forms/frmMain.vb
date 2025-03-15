@@ -157,7 +157,7 @@ Public Class frmMain
         If reader.HasRows Then
             If reader.Read Then
                 tmSundaySched.Stop()
-                AdminId = reader.GetString(0).ToString()
+                AdminId = reader.GetInt32(0).ToString() ' Use GetInt32 instead of GetString
                 Access = reader.GetString(3).ToString()
                 If Access = "Super Admin" Then
                     con.Close()
@@ -186,7 +186,7 @@ Public Class frmMain
                     con.Close()
                     frmAdmin.btnBio.Hide()
                     frmAdmin.Show()
-                    StopCapture
+                    StopCapture()
                     tmTimeDate.Stop()
                     Me.Hide()
                     txtUsername.Clear()
@@ -201,7 +201,6 @@ Public Class frmMain
             tmClear.Start()
         End If
         con.Close()
-
     End Sub
 
     Private Sub txtPassword_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPassword.KeyPress
@@ -227,7 +226,7 @@ Public Class frmMain
         con.Open()
         Connections.CountAttendToday()
         If reader.Read Then
-            lblAttendCount.Text = reader.GetString(0)
+            lblAttendCount.Text = reader.GetInt64(0) ' Use GetInt64 instead of GetString
         End If
         con.Close()
     End Sub

@@ -17,7 +17,7 @@
         con.Open()
         Connections.CountOfServices()
         If reader.Read Then
-            frmServices.cbMany.SelectedIndex = reader.GetString(0) - 1
+            frmServices.cbMany.SelectedIndex = reader.GetInt32(0) - 1
             NoOfServices = frmServices.cbMany.Text
             con.Close()
         End If

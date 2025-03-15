@@ -215,7 +215,7 @@ Public Class frmAdmin
         con.Open()
         Connections.CountAllReg()
         If reader.Read Then
-            lblCountAllUser.Text = reader.GetString(0)
+            lblCountAllUser.Text = reader.GetInt64(0).ToString() ' Use GetInt64 instead of GetString
         End If
         con.Close()
         cbCategory.SelectedIndex = 0
@@ -225,6 +225,7 @@ Public Class frmAdmin
         cbSearchNet.SelectedIndex = 0
         cbSearchCell.SelectedIndex = 0
     End Sub
+
 
     Private Sub cbCategory_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbCategory.SelectedIndexChanged
        If cbSort.Text = "ID Number" Then
