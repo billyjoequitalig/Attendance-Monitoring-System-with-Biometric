@@ -1,0 +1,522 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmServices
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblFirstS = New System.Windows.Forms.Label()
+        Me.lblSecondS = New System.Windows.Forms.Label()
+        Me.lblThirdS = New System.Windows.Forms.Label()
+        Me.lblFourthS = New System.Windows.Forms.Label()
+        Me.cbMany = New System.Windows.Forms.ComboBox()
+        Me.lblFiveS = New System.Windows.Forms.Label()
+        Me.lblSixS = New System.Windows.Forms.Label()
+        Me.lblFirstE = New System.Windows.Forms.Label()
+        Me.lblSecondE = New System.Windows.Forms.Label()
+        Me.lblThirdE = New System.Windows.Forms.Label()
+        Me.lblFourthE = New System.Windows.Forms.Label()
+        Me.lblFiveE = New System.Windows.Forms.Label()
+        Me.lblSixE = New System.Windows.Forms.Label()
+        Me.lblEightE = New System.Windows.Forms.Label()
+        Me.lblSevenE = New System.Windows.Forms.Label()
+        Me.lblEightS = New System.Windows.Forms.Label()
+        Me.lblSevenS = New System.Windows.Forms.Label()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.dtp1S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp1E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp2S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp2E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp3S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp3E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp4S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp4E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp5S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp5E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp6S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp6E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp7S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp7E = New System.Windows.Forms.DateTimePicker()
+        Me.dtp8S = New System.Windows.Forms.DateTimePicker()
+        Me.dtp8E = New System.Windows.Forms.DateTimePicker()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(252, 74)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(102, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "How Many Services"
+        '
+        'lblFirstS
+        '
+        Me.lblFirstS.AutoSize = True
+        Me.lblFirstS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFirstS.Location = New System.Drawing.Point(98, 146)
+        Me.lblFirstS.Name = "lblFirstS"
+        Me.lblFirstS.Size = New System.Drawing.Size(229, 31)
+        Me.lblFirstS.TabIndex = 1
+        Me.lblFirstS.Text = "1st Service Start :"
+        '
+        'lblSecondS
+        '
+        Me.lblSecondS.AutoSize = True
+        Me.lblSecondS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSecondS.Location = New System.Drawing.Point(90, 200)
+        Me.lblSecondS.Name = "lblSecondS"
+        Me.lblSecondS.Size = New System.Drawing.Size(237, 31)
+        Me.lblSecondS.TabIndex = 2
+        Me.lblSecondS.Text = "2nd Service Start :"
+        '
+        'lblThirdS
+        '
+        Me.lblThirdS.AutoSize = True
+        Me.lblThirdS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblThirdS.Location = New System.Drawing.Point(96, 254)
+        Me.lblThirdS.Name = "lblThirdS"
+        Me.lblThirdS.Size = New System.Drawing.Size(231, 31)
+        Me.lblThirdS.TabIndex = 3
+        Me.lblThirdS.Text = "3rd Service Start :"
+        '
+        'lblFourthS
+        '
+        Me.lblFourthS.AutoSize = True
+        Me.lblFourthS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFourthS.Location = New System.Drawing.Point(97, 308)
+        Me.lblFourthS.Name = "lblFourthS"
+        Me.lblFourthS.Size = New System.Drawing.Size(230, 31)
+        Me.lblFourthS.TabIndex = 4
+        Me.lblFourthS.Text = "4th Service Start :"
+        '
+        'cbMany
+        '
+        Me.cbMany.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbMany.FormattingEnabled = True
+        Me.cbMany.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8"})
+        Me.cbMany.Location = New System.Drawing.Point(360, 71)
+        Me.cbMany.Name = "cbMany"
+        Me.cbMany.Size = New System.Drawing.Size(121, 21)
+        Me.cbMany.TabIndex = 5
+        '
+        'lblFiveS
+        '
+        Me.lblFiveS.AutoSize = True
+        Me.lblFiveS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFiveS.Location = New System.Drawing.Point(83, 362)
+        Me.lblFiveS.Name = "lblFiveS"
+        Me.lblFiveS.Size = New System.Drawing.Size(244, 31)
+        Me.lblFiveS.TabIndex = 6
+        Me.lblFiveS.Text = "5th Services Start :"
+        '
+        'lblSixS
+        '
+        Me.lblSixS.AutoSize = True
+        Me.lblSixS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSixS.Location = New System.Drawing.Point(83, 416)
+        Me.lblSixS.Name = "lblSixS"
+        Me.lblSixS.Size = New System.Drawing.Size(244, 31)
+        Me.lblSixS.TabIndex = 7
+        Me.lblSixS.Text = "6th Services Start :"
+        '
+        'lblFirstE
+        '
+        Me.lblFirstE.AutoSize = True
+        Me.lblFirstE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFirstE.Location = New System.Drawing.Point(626, 146)
+        Me.lblFirstE.Name = "lblFirstE"
+        Me.lblFirstE.Size = New System.Drawing.Size(77, 31)
+        Me.lblFirstE.TabIndex = 20
+        Me.lblFirstE.Text = "End :"
+        '
+        'lblSecondE
+        '
+        Me.lblSecondE.AutoSize = True
+        Me.lblSecondE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSecondE.Location = New System.Drawing.Point(626, 200)
+        Me.lblSecondE.Name = "lblSecondE"
+        Me.lblSecondE.Size = New System.Drawing.Size(77, 31)
+        Me.lblSecondE.TabIndex = 32
+        Me.lblSecondE.Text = "End :"
+        '
+        'lblThirdE
+        '
+        Me.lblThirdE.AutoSize = True
+        Me.lblThirdE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblThirdE.Location = New System.Drawing.Point(626, 254)
+        Me.lblThirdE.Name = "lblThirdE"
+        Me.lblThirdE.Size = New System.Drawing.Size(77, 31)
+        Me.lblThirdE.TabIndex = 33
+        Me.lblThirdE.Text = "End :"
+        '
+        'lblFourthE
+        '
+        Me.lblFourthE.AutoSize = True
+        Me.lblFourthE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFourthE.Location = New System.Drawing.Point(626, 308)
+        Me.lblFourthE.Name = "lblFourthE"
+        Me.lblFourthE.Size = New System.Drawing.Size(77, 31)
+        Me.lblFourthE.TabIndex = 34
+        Me.lblFourthE.Text = "End :"
+        '
+        'lblFiveE
+        '
+        Me.lblFiveE.AutoSize = True
+        Me.lblFiveE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFiveE.Location = New System.Drawing.Point(626, 362)
+        Me.lblFiveE.Name = "lblFiveE"
+        Me.lblFiveE.Size = New System.Drawing.Size(77, 31)
+        Me.lblFiveE.TabIndex = 35
+        Me.lblFiveE.Text = "End :"
+        '
+        'lblSixE
+        '
+        Me.lblSixE.AutoSize = True
+        Me.lblSixE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSixE.Location = New System.Drawing.Point(626, 416)
+        Me.lblSixE.Name = "lblSixE"
+        Me.lblSixE.Size = New System.Drawing.Size(77, 31)
+        Me.lblSixE.TabIndex = 36
+        Me.lblSixE.Text = "End :"
+        '
+        'lblEightE
+        '
+        Me.lblEightE.AutoSize = True
+        Me.lblEightE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEightE.Location = New System.Drawing.Point(627, 524)
+        Me.lblEightE.Name = "lblEightE"
+        Me.lblEightE.Size = New System.Drawing.Size(77, 31)
+        Me.lblEightE.TabIndex = 44
+        Me.lblEightE.Text = "End :"
+        '
+        'lblSevenE
+        '
+        Me.lblSevenE.AutoSize = True
+        Me.lblSevenE.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSevenE.Location = New System.Drawing.Point(627, 470)
+        Me.lblSevenE.Name = "lblSevenE"
+        Me.lblSevenE.Size = New System.Drawing.Size(77, 31)
+        Me.lblSevenE.TabIndex = 43
+        Me.lblSevenE.Text = "End :"
+        '
+        'lblEightS
+        '
+        Me.lblEightS.AutoSize = True
+        Me.lblEightS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEightS.Location = New System.Drawing.Point(83, 524)
+        Me.lblEightS.Name = "lblEightS"
+        Me.lblEightS.Size = New System.Drawing.Size(244, 31)
+        Me.lblEightS.TabIndex = 38
+        Me.lblEightS.Text = "8th Services Start :"
+        '
+        'lblSevenS
+        '
+        Me.lblSevenS.AutoSize = True
+        Me.lblSevenS.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSevenS.Location = New System.Drawing.Point(97, 470)
+        Me.lblSevenS.Name = "lblSevenS"
+        Me.lblSevenS.Size = New System.Drawing.Size(230, 31)
+        Me.lblSevenS.TabIndex = 37
+        Me.lblSevenS.Text = "7th Service Start :"
+        '
+        'btnSave
+        '
+        Me.btnSave.Location = New System.Drawing.Point(1033, 297)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.TabIndex = 45
+        Me.btnSave.Text = "Save"
+        Me.btnSave.UseVisualStyleBackColor = True
+        '
+        'dtp1S
+        '
+        Me.dtp1S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp1S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp1S.Location = New System.Drawing.Point(333, 135)
+        Me.dtp1S.Name = "dtp1S"
+        Me.dtp1S.ShowUpDown = True
+        Me.dtp1S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp1S.TabIndex = 62
+        Me.dtp1S.Value = New Date(2017, 1, 10, 6, 0, 0, 0)
+        '
+        'dtp1E
+        '
+        Me.dtp1E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp1E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp1E.Location = New System.Drawing.Point(709, 135)
+        Me.dtp1E.Name = "dtp1E"
+        Me.dtp1E.ShowUpDown = True
+        Me.dtp1E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp1E.TabIndex = 63
+        Me.dtp1E.Value = New Date(2017, 1, 10, 7, 30, 0, 0)
+        '
+        'dtp2S
+        '
+        Me.dtp2S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp2S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp2S.Location = New System.Drawing.Point(333, 189)
+        Me.dtp2S.Name = "dtp2S"
+        Me.dtp2S.ShowUpDown = True
+        Me.dtp2S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp2S.TabIndex = 64
+        Me.dtp2S.Value = New Date(2017, 1, 10, 8, 0, 0, 0)
+        '
+        'dtp2E
+        '
+        Me.dtp2E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp2E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp2E.Location = New System.Drawing.Point(709, 189)
+        Me.dtp2E.Name = "dtp2E"
+        Me.dtp2E.ShowUpDown = True
+        Me.dtp2E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp2E.TabIndex = 65
+        Me.dtp2E.Value = New Date(2017, 1, 10, 9, 30, 0, 0)
+        '
+        'dtp3S
+        '
+        Me.dtp3S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp3S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp3S.Location = New System.Drawing.Point(333, 243)
+        Me.dtp3S.Name = "dtp3S"
+        Me.dtp3S.ShowUpDown = True
+        Me.dtp3S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp3S.TabIndex = 66
+        Me.dtp3S.Value = New Date(2017, 1, 10, 10, 0, 0, 0)
+        '
+        'dtp3E
+        '
+        Me.dtp3E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp3E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp3E.Location = New System.Drawing.Point(709, 243)
+        Me.dtp3E.Name = "dtp3E"
+        Me.dtp3E.ShowUpDown = True
+        Me.dtp3E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp3E.TabIndex = 67
+        Me.dtp3E.Value = New Date(2017, 1, 10, 11, 30, 0, 0)
+        '
+        'dtp4S
+        '
+        Me.dtp4S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp4S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp4S.Location = New System.Drawing.Point(333, 297)
+        Me.dtp4S.Name = "dtp4S"
+        Me.dtp4S.ShowUpDown = True
+        Me.dtp4S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp4S.TabIndex = 68
+        Me.dtp4S.Value = New Date(2017, 1, 10, 14, 15, 0, 0)
+        '
+        'dtp4E
+        '
+        Me.dtp4E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp4E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp4E.Location = New System.Drawing.Point(709, 297)
+        Me.dtp4E.Name = "dtp4E"
+        Me.dtp4E.ShowUpDown = True
+        Me.dtp4E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp4E.TabIndex = 69
+        Me.dtp4E.Value = New Date(2017, 1, 10, 15, 45, 0, 0)
+        '
+        'dtp5S
+        '
+        Me.dtp5S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp5S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp5S.Location = New System.Drawing.Point(333, 351)
+        Me.dtp5S.Name = "dtp5S"
+        Me.dtp5S.ShowUpDown = True
+        Me.dtp5S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp5S.TabIndex = 70
+        Me.dtp5S.Value = New Date(2017, 1, 10, 16, 15, 0, 0)
+        '
+        'dtp5E
+        '
+        Me.dtp5E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp5E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp5E.Location = New System.Drawing.Point(709, 351)
+        Me.dtp5E.Name = "dtp5E"
+        Me.dtp5E.ShowUpDown = True
+        Me.dtp5E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp5E.TabIndex = 71
+        Me.dtp5E.Value = New Date(2017, 1, 10, 17, 45, 0, 0)
+        '
+        'dtp6S
+        '
+        Me.dtp6S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp6S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp6S.Location = New System.Drawing.Point(333, 405)
+        Me.dtp6S.Name = "dtp6S"
+        Me.dtp6S.ShowUpDown = True
+        Me.dtp6S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp6S.TabIndex = 72
+        Me.dtp6S.Value = New Date(2017, 1, 10, 18, 15, 0, 0)
+        '
+        'dtp6E
+        '
+        Me.dtp6E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp6E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp6E.Location = New System.Drawing.Point(709, 405)
+        Me.dtp6E.Name = "dtp6E"
+        Me.dtp6E.ShowUpDown = True
+        Me.dtp6E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp6E.TabIndex = 73
+        Me.dtp6E.Value = New Date(2017, 1, 10, 19, 45, 0, 0)
+        '
+        'dtp7S
+        '
+        Me.dtp7S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp7S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp7S.Location = New System.Drawing.Point(333, 459)
+        Me.dtp7S.Name = "dtp7S"
+        Me.dtp7S.ShowUpDown = True
+        Me.dtp7S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp7S.TabIndex = 74
+        Me.dtp7S.Value = New Date(2017, 1, 10, 20, 15, 0, 0)
+        '
+        'dtp7E
+        '
+        Me.dtp7E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp7E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp7E.Location = New System.Drawing.Point(709, 459)
+        Me.dtp7E.Name = "dtp7E"
+        Me.dtp7E.ShowUpDown = True
+        Me.dtp7E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp7E.TabIndex = 75
+        Me.dtp7E.Value = New Date(2017, 1, 10, 21, 45, 0, 0)
+        '
+        'dtp8S
+        '
+        Me.dtp8S.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp8S.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp8S.Location = New System.Drawing.Point(333, 513)
+        Me.dtp8S.Name = "dtp8S"
+        Me.dtp8S.ShowUpDown = True
+        Me.dtp8S.Size = New System.Drawing.Size(247, 48)
+        Me.dtp8S.TabIndex = 76
+        Me.dtp8S.Value = New Date(2017, 1, 10, 22, 15, 0, 0)
+        '
+        'dtp8E
+        '
+        Me.dtp8E.Font = New System.Drawing.Font("Calibri", 24.75!)
+        Me.dtp8E.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.dtp8E.Location = New System.Drawing.Point(709, 513)
+        Me.dtp8E.Name = "dtp8E"
+        Me.dtp8E.ShowUpDown = True
+        Me.dtp8E.Size = New System.Drawing.Size(247, 48)
+        Me.dtp8E.TabIndex = 77
+        Me.dtp8E.Value = New Date(2017, 1, 10, 23, 45, 0, 0)
+        '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(1236, 685)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(100, 30)
+        Me.btnExit.TabIndex = 78
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
+        'frmServices
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1348, 727)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.dtp8E)
+        Me.Controls.Add(Me.dtp8S)
+        Me.Controls.Add(Me.dtp7E)
+        Me.Controls.Add(Me.dtp7S)
+        Me.Controls.Add(Me.dtp6E)
+        Me.Controls.Add(Me.dtp6S)
+        Me.Controls.Add(Me.dtp5E)
+        Me.Controls.Add(Me.dtp5S)
+        Me.Controls.Add(Me.dtp4E)
+        Me.Controls.Add(Me.dtp4S)
+        Me.Controls.Add(Me.dtp3E)
+        Me.Controls.Add(Me.dtp3S)
+        Me.Controls.Add(Me.dtp2E)
+        Me.Controls.Add(Me.dtp2S)
+        Me.Controls.Add(Me.dtp1E)
+        Me.Controls.Add(Me.dtp1S)
+        Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.lblEightE)
+        Me.Controls.Add(Me.lblSevenE)
+        Me.Controls.Add(Me.lblEightS)
+        Me.Controls.Add(Me.lblSevenS)
+        Me.Controls.Add(Me.lblSixE)
+        Me.Controls.Add(Me.lblFiveE)
+        Me.Controls.Add(Me.lblFourthE)
+        Me.Controls.Add(Me.lblThirdE)
+        Me.Controls.Add(Me.lblSecondE)
+        Me.Controls.Add(Me.lblFirstE)
+        Me.Controls.Add(Me.lblSixS)
+        Me.Controls.Add(Me.lblFiveS)
+        Me.Controls.Add(Me.cbMany)
+        Me.Controls.Add(Me.lblFourthS)
+        Me.Controls.Add(Me.lblThirdS)
+        Me.Controls.Add(Me.lblSecondS)
+        Me.Controls.Add(Me.lblFirstS)
+        Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "frmServices"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "frmServices"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblFirstS As System.Windows.Forms.Label
+    Friend WithEvents lblSecondS As System.Windows.Forms.Label
+    Friend WithEvents lblThirdS As System.Windows.Forms.Label
+    Friend WithEvents lblFourthS As System.Windows.Forms.Label
+    Friend WithEvents cbMany As System.Windows.Forms.ComboBox
+    Friend WithEvents lblFiveS As System.Windows.Forms.Label
+    Friend WithEvents lblSixS As System.Windows.Forms.Label
+    Friend WithEvents lblFirstE As System.Windows.Forms.Label
+    Friend WithEvents lblSecondE As System.Windows.Forms.Label
+    Friend WithEvents lblThirdE As System.Windows.Forms.Label
+    Friend WithEvents lblFourthE As System.Windows.Forms.Label
+    Friend WithEvents lblFiveE As System.Windows.Forms.Label
+    Friend WithEvents lblSixE As System.Windows.Forms.Label
+    Friend WithEvents lblEightE As System.Windows.Forms.Label
+    Friend WithEvents lblSevenE As System.Windows.Forms.Label
+    Friend WithEvents lblEightS As System.Windows.Forms.Label
+    Friend WithEvents lblSevenS As System.Windows.Forms.Label
+    Friend WithEvents btnSave As System.Windows.Forms.Button
+    Friend WithEvents dtp1S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp1E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp2S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp2E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp3S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp3E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp4S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp4E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp5S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp5E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp6S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp6E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp7S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp7E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp8S As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp8E As System.Windows.Forms.DateTimePicker
+    Friend WithEvents btnExit As System.Windows.Forms.Button
+End Class
